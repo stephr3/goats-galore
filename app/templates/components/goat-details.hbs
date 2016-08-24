@@ -4,6 +4,11 @@
   <h5>{{goat.breed}} | ${{goat.price}}</h5>
   <h5>Type: {{goat.category}}</h5>
   <p>{{goat.description}}</p>
-
-  <button {{action 'addToCart' goat}} class="btn">Add to Shopping Cart</button>
+  {{#if inCart}}
+  <p>
+    <button {{action 'removeFromCart' goat}} class="btn">Remove from Cart</button>
+  </p>
+  {{else}}
+    <button {{action 'addToCart' goat}} class="btn">Add to Shopping Cart</button>
+  {{/if}}
 </div>
