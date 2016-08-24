@@ -1,7 +1,9 @@
 {{#if shoppingCart.items}}
 {{#each shoppingCart.items as |goat|}}
-  <p>{{goat.name}} -- {{goat.price}}</p>
+  <p><img src= {{goat.image}} alt="goat icon" class="goat-icon"/>{{goat.name}} | ${{goat.price}}</p>
 {{/each}}
+<hr>
+<h2>Total: ${{cart-total shoppingCart.items}}</h2>
 {{else}}
-<h5>There are no items in your shopping cart yet.</h5>
+<p>There are no goats in your shopping cart yet.</p>
 {{/if}}

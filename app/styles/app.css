@@ -35,3 +35,23 @@ body {
   width: 80%;
   border-radius: 10px;
 }
+
+.cart-right {
+  font-size: 1.5em;
+  text-align: right;
+}
+
+.cart-left h1, .cart-right h1{
+  margin-top: 0;
+}
+
+.cart-left img {
+  border-radius: 10px;
+}
+
+.goat-icon {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 15px;
+}
