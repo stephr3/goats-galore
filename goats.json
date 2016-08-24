@@ -1,4 +1,9 @@
-{"goats": [{
+{"farms": [{
+  "name": "Goats Galore Farm",
+  "latitude": 45.482663,
+  "longitude": -122.567261
+  }],
+  "goats": [{
   "name": "Mildred",
   "breed":"Fainting Goat",
   "price": 100,

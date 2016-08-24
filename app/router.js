@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('mohair');
   this.route('yard');
   this.route('admin');
+  this.route('about');
 });
 
 export default Router;
