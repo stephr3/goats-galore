@@ -1,6 +1,6 @@
 {{#if shoppingCart.items}}
 {{#each shoppingCart.items as |goat|}}
-  <p><img src= {{goat.image}} alt="goat icon" class="goat-icon"/>{{goat.name}} | ${{goat.price}} <span class="glyphicon glyphicon-remove" {{action 'remove' goat}}></span></p>
+  <p>{{#link-to 'goat' goat.id}}<img src= {{goat.image}} alt="goat icon" class="goat-icon"/>{{/link-to}}{{goat.name}} | ${{goat.price}} <span class="glyphicon glyphicon-remove" {{action 'remove' goat}}></span></p>
 {{/each}}
 <hr>
 <h2>Total: ${{cart-total shoppingCart.items}}</h2>

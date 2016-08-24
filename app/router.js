@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('sire');
   this.route('mohair');
   this.route('yard');
+  this.route('admin');
 });
 
 export default Router;

@@ -1,0 +1,7 @@
+<h1>Admin Page</h1>
+<ul>
+  {{#each model as |goat|}}
+  <li><span class="glyphicon glyphicon-pencil"></span> <span class="glyphicon glyphicon-trash"></span> {{goat.name}} | ${{goat.price}}</li>
+  {{/each}}
+</ul>
+{{new-goat save="save"}}
