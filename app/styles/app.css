@@ -1,0 +1,37 @@
+body {
+  font-size: 1.7em;
+}
+.hero-unit {
+  background-image:url('http://dingo.care2.com/pictures/causes/uploads/2014/05/7025571489_82be6705af_z.jpg');
+  background-size:length;
+  background-color: #EEEEEE;
+  height:25vh;
+}
+.hero-unit h1 {
+  margin-top: 0;
+  color: pink;
+  opacity: .9;
+  font-size: 8em;
+  text-align: center;
+  padding-top: 165px;
+}
+
+.goat-div {
+  padding: 10px;
+}
+.goat-div img{
+  width: 80%;
+  height: 200px;
+  border-radius: 5px;
+}
+.individual-goat {
+  max-width: 60%;
+  margin: auto;
+}
+
+.individual-goat img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+}
