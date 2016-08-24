@@ -1,7 +1,8 @@
 <h1>Admin Page</h1>
 <ul>
   {{#each model as |goat|}}
-  <li><span class="glyphicon glyphicon-pencil"></span> <span class="glyphicon glyphicon-trash"></span> {{goat.name}} | ${{goat.price}}</li>
+    {{admin-goats goat=goat delete="delete" edit="edit"}}
   {{/each}}
 </ul>
+
 {{new-goat save="save"}}

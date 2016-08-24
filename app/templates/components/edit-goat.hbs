@@ -1,26 +1,25 @@
-{{#if showNewForm}}
 <hr>
-<h3>Add a New Goat</h3>
+<h3>Edit Goat Information</h3>
 <form>
   <div class="form-group">
     <label for="name">Name</label>
-    {{input value=name id="name"}}
+    {{input value=goat.name id="name"}}
   </div>
   <div class="form-group">
     <label for="breed">Breed</label>
-    {{input value=breed id="breed"}}
+    {{input value=goat.breed id="breed"}}
   </div>
   <div class="form-group">
     <label for="price">Price</label>
-    {{input value=price id="price" type="number"}}
+    {{input value=goat.price id="price" type="number"}}
   </div>
   <div class="form-group">
     <label for="image">Image URL</label>
-    {{input value=image id="image"}}
+    {{input value=goat.image id="image"}}
   </div>
   <div class="form-group">
     <label for="description">Description</label>
-    {{input value=description id="description"}}
+    {{input value=goat.description id="description"}}
   </div>
   <div class="form-group">
     <label for="category">Category</label>
@@ -33,8 +32,7 @@
     {{item}}
     {{/power-select}}
   </div>
-  <button class="btn"{{action 'save'}}>Add Goat</button>
+  <button class="btn"{{action 'edit' goat}}>Update Goat</button>
 </form>
-{{else}}
-  <button class="btn" {{action 'showNewForm'}}>Add a New Goat</button>
-{{/if}}
+<br>
+<hr>

@@ -1,0 +1,4 @@
+<li><span class="glyphicon glyphicon-pencil" {{action 'editGoat'}} ></span> <span class="glyphicon glyphicon-trash" {{action 'delete' goat}}></span> {{goat.name}} | ${{goat.price}}</li>
+{{#if editGoat}}
+{{edit-goat goat=goat edit="edit"}}
+{{/if}}
