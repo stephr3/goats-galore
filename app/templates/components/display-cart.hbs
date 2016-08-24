@@ -1,0 +1,7 @@
+{{#if shoppingCart.items}}
+{{#each shoppingCart.items as |goat|}}
+  <p>{{goat.name}} -- {{goat.price}}</p>
+{{/each}}
+{{else}}
+<h5>There are no items in your shopping cart yet.</h5>
+{{/if}}

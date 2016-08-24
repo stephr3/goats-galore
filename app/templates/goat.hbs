@@ -1,7 +1,1 @@
-<div class="individual-goat">
-  <img src= {{model.image}} alt="picture of goat" />
-  <h2>{{model.name}}</h2>
-  <h5>{{model.breed}} | ${{model.price}}</h5>
-  <h5>Type: {{model.category}}</h5>
-  <p>{{model.description}}</p>
-</div>
+{{goat-details goat=model transitionCart="transitionCart"}}
