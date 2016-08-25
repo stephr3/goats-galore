@@ -2,5 +2,6 @@
   <h4>{{star-rating comment}}</h4>
   <h4>{{comment.author}} said:</h4>
   <blockquote>"{{comment.text}}"</blockquote>
-  <p>{{moment-format comment.date "MM/DD/YY"}}</p>
+  <p><em>{{moment-format comment.date "MM/DD/YY \at hh:mm A"}}</em></p>
 </li>
+<br>
