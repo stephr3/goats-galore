@@ -11,8 +11,10 @@
   {{else}}
     <button {{action 'addToCart' goat}} class="btn">Add to Shopping Cart</button>
   {{/if}}
+  <hr>
   {{#if goat.comments}}
-  <h4>See what people are saying!</h4>
+  <h3>See what people are saying:</h3>
+  <br>
   <ul>
     {{#each goat.comments as |comment|}}
       {{comment-tile comment=comment}}
@@ -24,4 +26,5 @@
   </p>
   {{/if}}
   {{add-comment saveComment="saveComment" goat=goat}}
+  <br>
 </div>

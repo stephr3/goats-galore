@@ -1,5 +1,6 @@
 <li>
-  <h4>{{comment.rating}} | {{comment.author}} said:</h4>
-  <p>{{comment.text}}</p>
-  <p>{{comment.date}}</p>
+  <h4>{{star-rating comment}}</h4>
+  <h4>{{comment.author}} said:</h4>
+  <blockquote>"{{comment.text}}"</blockquote>
+  <p>{{moment-format comment.date "MM/DD/YY"}}</p>
 </li>
