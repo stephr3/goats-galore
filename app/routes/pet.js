@@ -5,6 +5,6 @@ export default Ember.Route.extend({
     return this.store.query('goat', {
       orderBy: 'category',
       equalTo: 'Pet'
-    })
+    });
   }
 });

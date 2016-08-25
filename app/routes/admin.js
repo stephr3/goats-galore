@@ -22,4 +22,4 @@ export default Ember.Route.extend({
       goat.save();
     }
   }
-})
+});

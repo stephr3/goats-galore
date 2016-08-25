@@ -12,13 +12,14 @@ body {
   margin-top: 0;
   color: pink;
   opacity: .9;
-  font-size: 8em;
-  padding-top: 165px;
+  font-size: 6em;
+  padding-top: 5%;
 }
 
 @media screen and (max-width: 866px) {
   .hero-unit h1 {
     padding-top: 0;
+    font-size: 4.3em;
   }
 }
 
@@ -73,6 +74,12 @@ body {
 
 #logo-goat {
   height: 40px;
+  margin-top: -10px;
+}
+
+#logo-goat:hover {
+  border: 2px dotted gray;
+  border-radius: 40%;
 }
 .navbar-default .navbar-header .navbar-brand:hover {
   color: gray;

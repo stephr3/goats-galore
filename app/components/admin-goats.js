@@ -7,7 +7,7 @@ export default Ember.Component.extend({
         this.set('editGoat', true);
       },
       delete(goat) {
-        this.sendAction('delete', goat)
+        this.sendAction('delete', goat);
       },
       edit(params, goat) {
         this.set('editGoat', false);
