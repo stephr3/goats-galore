@@ -27,10 +27,28 @@ body {
 
 .goat-div {
   padding: 10px;
-  img{
+  a:hover {
+    text-decoration: none;
+  }
+  img, .sold-out, .sold-out-text{
     width: 80%;
     height: 200px;
     border-radius: 5px;
+  }
+  .sold-out {
+    margin-top: -200px;
+    background-color: white;
+    opacity: .5;
+  }
+  .sold-out-text {
+    color: pink;
+    text-align: center;
+    margin-top: -220px;
+    h3 {
+      font-size: 70px;
+      padding-top: 10px;
+      -webkit-text-stroke: 1px white;
+    }
   }
 }
 
@@ -45,13 +63,32 @@ body {
 .individual-goat {
   max-width: 60%;
   margin: auto;
-  img {
+  img, .sold-out, .sold-out-text {
     display: block;
     margin: auto;
     width: 80%;
+    height: 350px;
     border-radius: 10px;
   }
+  .sold-out {
+    margin-top: -350px;
+    background-color: white;
+    opacity: .5;
+  }
+  .sold-out-text {
+    color: pink;
+    text-align: center;
+    margin-top: -350px;
+    h3 {
+      font-size: 130px;
+      -webkit-text-stroke: 1px white;
+    }
+    h3:hover {
+      text-decoration: none;
+    }
+  }
 }
+
 
 
 .cart-right {

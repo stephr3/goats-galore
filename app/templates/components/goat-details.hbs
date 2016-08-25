@@ -1,10 +1,12 @@
 <div class="individual-goat">
-  {{#if inCart}}
-    <div class="sold-out">
-      <h3>Sold Out!</h3>
-    </div>
-  {{/if}}
   <img src= {{goat.image}} alt="picture of goat" />
+  {{#if inCart}}
+  <div class="sold-out">
+  </div>
+  <div class="sold-out-text">
+    <h3>SOLD OUT!</h3>
+  </div>
+  {{/if}}
   <h2>{{goat.name}}</h2>
   <h5>{{goat.breed}} | ${{goat.price}}</h5>
   <h5>Type: {{goat.category}}</h5>
