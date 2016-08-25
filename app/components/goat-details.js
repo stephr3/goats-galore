@@ -12,6 +12,9 @@ export default Ember.Component.extend({
     },
     removeFromCart(item) {
       this.get('shoppingCart').remove(item);
+    },
+    saveComment(params) {
+      this.sendAction( 'saveComment', params);
     }
   }
 });
