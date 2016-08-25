@@ -8,9 +8,7 @@ export default Ember.Component.extend({
   ratingAverage: Ember.computed('comments.@each.rating', function(){
     var total = 0;
     (this.get('comments')).forEach(function(comment){
-      console.log(comment.get('rating'));
       total += comment.get('rating');
-      console.log(total);
     });
 
     return Math.round(total/this.get('comments').get('length'));
