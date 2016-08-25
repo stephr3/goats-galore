@@ -18,6 +18,12 @@ export default Ember.Component.extend({
       };
       this.set('showNewForm', false);
       this.sendAction('save', params);
+      this.set('name', "");
+      this.set('breed', "");
+      this.set('price', "");
+      this.set('image', "");
+      this.set('description', "");
+      this.set('category', "");
     }
   }
 });

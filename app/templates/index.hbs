@@ -1,6 +1,8 @@
 <h1>Welcome to Goats Galore!</h1>
 {{#each model as |goat|}}
 <div class="goat-div col-md-4">
-    {{goat-tile goat=goat}}
+  {{goat-tile goat=goat comments=goat.comments}}
 </div>
+
 {{/each}}
+{{infinity-loader infinityModel=model}}

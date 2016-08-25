@@ -15,6 +15,12 @@ export default Ember.Component.extend({
       };
       this.set('editGoat', false);
       this.sendAction('edit', params, goat);
+      this.set('name', "");
+      this.set('breed', "");
+      this.set('price', "");
+      this.set('image', "");
+      this.set('description', "");
+      this.set('category', "");
     }
   }
 });
