@@ -1,4 +1,6 @@
 @import "ember-power-select";
+$darkpink: #ff99aa;
+
 body {
   font-size: 1.7em;
 }
@@ -41,7 +43,7 @@ body {
     opacity: .5;
   }
   .sold-out-text {
-    color: pink;
+    color: $darkpink;
     text-align: center;
     margin-top: -220px;
     h3 {
@@ -76,7 +78,7 @@ body {
     opacity: .5;
   }
   .sold-out-text {
-    color: pink;
+    color: $darkpink;
     text-align: center;
     margin-top: -350px;
     h3 {
@@ -126,7 +128,7 @@ body {
 }
 
 .glyphicon-remove:hover {
-  color: red;
+  color: pink;
 }
 
 ul {
