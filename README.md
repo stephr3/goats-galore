@@ -1,7 +1,14 @@
-# Goats-galore
+# Goats Galore
+## By Stephanie Gurung & Brett New
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A goat marketplace, complete with a shopping cart!
+
+## Technologies Used
+
+* EmberJS<br>
+* Node JS<br>
+* Bower<br>
+* Bootstrap
 
 ## Prerequisites
 
@@ -51,3 +58,8 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+
+###  License
+
+  _This software is licensed under the MIT license._<br><br>
+  Copyright (c) 2016 **Stephanie Gurung & Brett New**
